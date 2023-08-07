@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skyzone - Fuel Zone</title>
+  <style>
+    body {
+      background-color: #ff9800;
+      color: #333;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background-color: #ff5722;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    nav {
+      background-color: #f44336;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: bold;
+      margin-right: 20px;
+    }
+    .content {
+      padding: 20px;
+    }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 30px;
+    }
+    .menu-item {
+      border: 1px solid #e91e63;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .menu-item h3 {
+      color: #e91e63;
+      background-color: #fff;
+      padding: 5px;
+      text-align: center;
+      margin: 0;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .menu-item p {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+    .menu-item ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .menu-item li {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Skyzone - Fuel Zone</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="#comida">Comida</a></li>
+      <li><a href="#bebidas">Bebidas Calientes</a></li>
+    </ul>
+  </nav>
+  <div class="content" id="comida">
+    <h2>Menú de Comida</h2>
+    <div class="menu">
+      <div class="menu-item">
+        <h3>Combo Perro</h3>
+        <p>Delicioso perro caliente con opción de combo que incluye gaseosa PET y papas margarita.</p>
+        <p>Precio: $20,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Combo Hamburguesa</h3>
+        <p>Deliciosa hamburguesa con opción de combo que incluye gaseosa PET y papas margarita.</p>
+        <p>Precio: $21,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Alimentos Preparados</h3>
+        <p>Sabores disponibles de pizza:</p>
+        <ul>
+          <li>Pizza de Jamón y Queso</li>
+          <li>Pizza de Pepperoni</li>
+          <li>Empanada</li>
+          <li>Pastel de Pollo</li>
+          <li>Pastel de Carne</li>
+          <li>Palito de Queso</li>
+        </ul>
+        <p>Precio: $7,000</p>
+      </div>
+      <div class="menu-item">
+        <h3>Bebidas Calientes</h3>
+        <ul>
+          <li>Tinto: $4,000</li>
+          <li>Perico: $4,000</li>
+          <li>Aromática: $4,000</li>
+          <li>Milo: $4,000</li>
+          <li>Latte: $4,000</li>
+          <li>Latte Vainilla: $4,000</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
